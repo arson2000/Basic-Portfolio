@@ -172,21 +172,35 @@ a.submit-text-link:link {
 	text-decoration: none;
 }
 .port-rows{
-	background-color: green;
 	width:590px;
+	margin-bottom: 30px;	
 	overflow: auto;
 }
 .port-box-left{
-	background-color: blue;
 	width:270px;
-	height: 200px;
-	margin: 0 50px 0 0;
+	position: relative;
+	height: 203px;
+	margin: 0 20px 0 0;
 	float: left;
 }
 .port-box-right{
-	background-color: blue;
 	width:270px;
-	height: 200px;
+	position: relative;
+	height: 203px;
 	margin: 0;
 	float: left;
+}
+.port-box-label { 
+  	position:absolute;
+	font-family: "Georgia", Times, Times New Roman, serif;
+  	bottom:0;
+  	background-color:#4aaaa5;
+  	width:100%;
+  	text-align:center;
+  	color: #fff;
+  	height: 30px;
+  	line-height: 30px;
+}
+p.port-box-label{
+	margin-bottom: 6px;
 }
